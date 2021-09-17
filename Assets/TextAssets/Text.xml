@@ -1,0 +1,310 @@
+<dialogue>
+	<node>
+		<text>Суи
+		
+С Днём шоколада, смертная душа. Позволь же в этот праздник оказать мне такую честь и принять мой подарок.
+		</text>
+		<answers>
+			<answer tonode ="1">
+				<ans_text>Взять</ans_text>
+			</answer>
+			<answer tonode ="5">
+				<ans_text>Отказаться</ans_text>
+			</answer>
+			<answer tonode ="3">
+				<ans_text>Промолчать</ans_text>
+			</answer>
+			<answer tonode ="23">
+				<ans_text>Уйти</ans_text>
+			</answer>
+		</answers>
+	</node>
+	
+	<node>
+		<text>Суи
+
+Это было легко, правда? В любом случае, ещё раз с праздником. Надеюсь, что этот день станет лучшим в твоей жизни.
+		</text>
+		<endnode>true</endnode>
+	</node>
+
+	<node>
+		<text>		Вы прошли историю!
+
+		Но всё ли так просто?
+			  
+		Перейти к концовке?
+		</text>
+		<answers>
+			<answer tonode ="0">
+				<ans_text>Да</ans_text>
+				<end>true</end><toending>Normal_ending</toending>
+			</answer>
+		</answers>
+	</node>
+
+	<node>
+		<text>Суи
+
+Стесняшка-милашка, прости если ты не привык к подаркам. Но всё же сегодня праздник, так что не стоит так
+		</text>
+		<endnode>true</endnode>
+	</node>
+
+	<node>
+		<text>Суи
+
+реагировать. Просто прими его как должное, так должно быть легче.
+		</text>
+		<answers>
+			<answer tonode ="1">
+				<ans_text>Взять</ans_text>
+			</answer>
+			<answer tonode ="6">
+				<ans_text>Отказаться</ans_text>
+			</answer>
+		</answers>
+	</node>
+
+	<node>
+		<text>Суи
+
+Хэй, не стоит скромничать. О, или ты не доверяешь демону? Не стоит волноваться. Мне нет смысла убивать тебя.
+		</text>
+		<endnode>true</endnode>
+	</node>
+
+	<node>
+		<text>Суи
+
+Да и если бы в шоколаде был цианид, то он бы был полностью бесполезен. Это просто очень вкусная шоколадка.
+		</text>
+		<endnode>true</endnode>
+	</node>
+
+	<node>
+		<text>Суи
+
+Ну так... Ты не передумаешь?
+		</text>
+		<answers>
+			<answer tonode ="1">
+				<ans_text>Взять</ans_text>
+			</answer>
+			<answer tonode ="9">
+				<ans_text>Отказаться</ans_text>
+			</answer>
+		</answers>
+	</node>
+
+	<node>
+		<text>Суи
+
+Ась? Я не особо понимаю почему ты отказываешься...
+		</text>
+		<endnode>true</endnode>
+	</node>
+
+	<node>
+		<text>Суи
+
+Хорошо, давай на чистоту. Ведь если я буду с тобой честна, то мы сможем прийти к пониманию друг друга, верно?
+		</text>
+		<endnode>true</endnode>
+	</node>
+
+	<node>
+		<text>Суи
+
+Ты же понимаешь, что я просто нарисованный персонаж, так?
+		</text>
+		<endnode>true</endnode>
+	</node>
+
+	<node>
+		<text>Суи
+
+Ну, может ещё шизофрения, пораждённая одиночеством, но зачастую она просто шутит на этот счёт.
+		</text>
+		<endnode>true</endnode>
+	</node>
+
+	<node>
+		<text>Суи
+
+Так вот, ты не сможешь получить этот шоколад в реальной жизни, к сожалению.
+		</text>
+		<endnode>true</endnode>
+	</node>
+
+	<node>
+		<text>Суи
+
+Да, архангел меня убей, но я даже не знаю какой вкус может быть у этого шоколада. Однако, суть всего происходящего не в этом.
+		</text>
+		<endnode>true</endnode>
+	</node>
+
+	<node>
+		<text>Суи
+
+Шоколад - это лишь символ. Символ радостных воспоминаний, и, принимая этот символ, ты согласишься на 
+		</text>
+		<endnode>true</endnode>
+	</node>
+
+	<node>
+		<text>Суи
+
+создание воспоминаний с ней. Для тебя это может показаться незначительным, но ей это важно.
+		</text>
+		<endnode>true</endnode>
+	</node>
+
+	<node>
+		<text>Суи
+
+Она боится остаться одна, но это происходит. И в этот момент она лишь может обращаться к воспоминаниям, которые вы
+		</text>
+		<endnode>true</endnode>
+	</node>
+
+	<node>
+		<text>Суи
+
+создали вместе. Воспоминаниям, которые не позволяют ей слишком надеятся на лучшее, что бы позже не уйти из-за этого
+		</text>
+		<endnode>true</endnode>
+	</node>
+
+	<node>
+		<text>Суи
+
+в отчаяние, в лице принятия этих потерь и одиночества.
+		</text>
+		<endnode>true</endnode>
+	</node>
+
+	<node>
+		<text>Суи
+
+Согласишься ли ты создать новые воспоминания?
+		</text>
+		<answers>
+			<answer tonode ="28">
+				<ans_text>Да</ans_text>
+			</answer>
+			<answer tonode ="21">
+				<ans_text>Нет</ans_text>
+			</answer>
+		</answers>
+	</node>
+
+	<node>
+		<text>Суи
+
+Даже после всего того, что я сказала?
+		</text>
+		<endnode>true</endnode>
+	</node>
+
+	<node>
+		<text>Суи
+
+Хах... Ну, наверное, доверять демону и вправду звучит, как глупость. Не мне тебя судить, не мне тебя осуждать... Просто...
+		</text>
+		<endnode>true</endnode>
+	</node>
+
+	<node>
+			<text>		Вы прошли историю!
+
+
+
+		Перейти к концовке?
+			</text>
+		<answers>
+			<answer tonode ="0">
+				<ans_text>Да</ans_text>
+				<end>true</end><toending>Sad_ending</toending>
+			</answer>
+		</answers>
+	</node>
+
+	<node>
+		<text>Суи
+
+П-погоди! Ты куда? Почему ты уходишь? Х-хей, вернись, пожалуйста.
+		</text>
+		<endnode>true</endnode>
+	</node>
+
+	<node>
+		<text>Суи
+
+Если я сказала что-то не так, то прости. Только вернись... Прошу...
+		</text>
+		<answers>
+			<answer tonode ="25">
+				<ans_text>Вернуться</ans_text>
+			</answer>
+			<answer tonode ="26">
+				<ans_text>Уйти</ans_text>
+			</answer>
+		</answers>
+	</node>
+
+	<node>
+		<text>Суи
+
+Не пугай меня так больше... Хорошо? Так на чём мы остановились? Да, точно. Примешь мой подарок?
+		</text>
+		<answers>
+			<answer tonode ="1">
+				<ans_text>Взять</ans_text>
+			</answer>
+			<answer tonode ="6">
+				<ans_text>Отказаться</ans_text>
+			</answer>
+		</answers>
+	</node>
+
+	<node>
+		<text>Суи
+
+Пожалуйста... Не оставляй меня одну... Я не хочу... Почему ты уходишь?
+		</text>
+		<endnode>true</endnode>
+	</node>
+
+	<node>
+		<text>		Вы прошли историю...
+
+
+
+		Перейти к концовке?
+		</text>
+		<answers>
+			<answer tonode ="0">
+				<ans_text>Да</ans_text>
+				<end>true</end><toending>Leave_ending</toending>
+			</answer>
+		</answers>
+	</node>
+
+	<node>
+		<text>		Вы прошли историю!
+
+
+
+		Перейти к концовке?
+		</text>
+		<answers>
+			<answer tonode ="0">
+				<ans_text>Да</ans_text>
+				<end>true</end><toending>Good_ending</toending>
+			</answer>
+		</answers>
+	</node>
+
+</dialogue>
