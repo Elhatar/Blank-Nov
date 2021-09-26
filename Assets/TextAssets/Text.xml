@@ -1,5 +1,5 @@
 <dialogue>
-	<node>
+	<node char_id = "1">
 		<text>Суи
 		
 С Днём шоколада, смертная душа. Позволь же в этот праздник оказать мне такую честь и принять мой подарок.
@@ -14,36 +14,34 @@
 			<answer tonode ="3">
 				<ans_text>Промолчать</ans_text>
 			</answer>
-			<answer tonode ="23">
+			<answer tonode ="22">
 				<ans_text>Уйти</ans_text>
 			</answer>
 		</answers>
 	</node>
 	
-	<node>
+	<node char_id = "6">
 		<text>Суи
 
-Это было легко, правда? В любом случае, ещё раз с праздником. Надеюсь, что этот день станет лучшим в твоей жизни.
+Это было легко, правда? В любом случае, ещё раз с праздником.
 		</text>
 		<endnode>true</endnode>
 	</node>
 
-	<node>
-		<text>		Вы прошли историю!
+	<node char_id = "6">
+		<text>Суи
 
-		Но всё ли так просто?
-			  
-		Перейти к концовке?
+Надеюсь, что этот день станет лучшим в твоей жизни.
 		</text>
 		<answers>
 			<answer tonode ="0">
-				<ans_text>Да</ans_text>
+				<ans_text>Спасибо</ans_text>
 				<end>true</end><toending>Normal_ending</toending>
 			</answer>
 		</answers>
 	</node>
 
-	<node>
+	<node char_id = "5">
 		<text>Суи
 
 Стесняшка-милашка, прости если ты не привык к подаркам. Но всё же сегодня праздник, так что не стоит так
@@ -51,7 +49,7 @@
 		<endnode>true</endnode>
 	</node>
 
-	<node>
+	<node char_id = "4">
 		<text>Суи
 
 реагировать. Просто прими его как должное, так должно быть легче.
@@ -60,13 +58,16 @@
 			<answer tonode ="1">
 				<ans_text>Взять</ans_text>
 			</answer>
-			<answer tonode ="6">
+			<answer tonode ="5">
 				<ans_text>Отказаться</ans_text>
+			</answer>
+			<answer tonode ="27">
+				<ans_text>Промолчать</ans_text>
 			</answer>
 		</answers>
 	</node>
 
-	<node>
+	<node char_id = "5">
 		<text>Суи
 
 Хэй, не стоит скромничать. О, или ты не доверяешь демону? Не стоит волноваться. Мне нет смысла убивать тебя.
@@ -74,7 +75,7 @@
 		<endnode>true</endnode>
 	</node>
 
-	<node>
+	<node char_id = "0">
 		<text>Суи
 
 Да и если бы в шоколаде был цианид, то он бы был полностью бесполезен. Это просто очень вкусная шоколадка.
@@ -82,7 +83,7 @@
 		<endnode>true</endnode>
 	</node>
 
-	<node>
+	<node char_id = "1">
 		<text>Суи
 
 Ну так... Ты не передумаешь?
@@ -97,7 +98,7 @@
 		</answers>
 	</node>
 
-	<node>
+	<node char_id = "2">
 		<text>Суи
 
 Ась? Я не особо понимаю почему ты отказываешься...
@@ -105,7 +106,7 @@
 		<endnode>true</endnode>
 	</node>
 
-	<node>
+	<node char_id = "6">
 		<text>Суи
 
 Хорошо, давай на чистоту. Ведь если я буду с тобой честна, то мы сможем прийти к пониманию друг друга, верно?
@@ -113,7 +114,7 @@
 		<endnode>true</endnode>
 	</node>
 
-	<node>
+	<node char_id = "6">
 		<text>Суи
 
 Ты же понимаешь, что я просто нарисованный персонаж, так?
@@ -121,7 +122,7 @@
 		<endnode>true</endnode>
 	</node>
 
-	<node>
+	<node char_id = "6">
 		<text>Суи
 
 Ну, может ещё шизофрения, пораждённая одиночеством, но зачастую она просто шутит на этот счёт.
@@ -129,7 +130,7 @@
 		<endnode>true</endnode>
 	</node>
 
-	<node>
+	<node char_id = "6">
 		<text>Суи
 
 Так вот, ты не сможешь получить этот шоколад в реальной жизни, к сожалению.
@@ -137,7 +138,7 @@
 		<endnode>true</endnode>
 	</node>
 
-	<node>
+	<node char_id = "4">
 		<text>Суи
 
 Да, архангел меня убей, но я даже не знаю какой вкус может быть у этого шоколада. Однако, суть всего происходящего не в этом.
@@ -145,7 +146,7 @@
 		<endnode>true</endnode>
 	</node>
 
-	<node>
+	<node char_id = "4">
 		<text>Суи
 
 Шоколад - это лишь символ. Символ радостных воспоминаний, и, принимая этот символ, ты согласишься на 
@@ -153,7 +154,7 @@
 		<endnode>true</endnode>
 	</node>
 
-	<node>
+	<node char_id = "4">
 		<text>Суи
 
 создание воспоминаний с ней. Для тебя это может показаться незначительным, но ей это важно.
@@ -161,7 +162,7 @@
 		<endnode>true</endnode>
 	</node>
 
-	<node>
+	<node char_id = "4">
 		<text>Суи
 
 Она боится остаться одна, но это происходит. И в этот момент она лишь может обращаться к воспоминаниям, которые вы
@@ -169,7 +170,7 @@
 		<endnode>true</endnode>
 	</node>
 
-	<node>
+	<node char_id = "4">
 		<text>Суи
 
 создали вместе. Воспоминаниям, которые не позволяют ей слишком надеятся на лучшее, что бы позже не уйти из-за этого
@@ -177,7 +178,7 @@
 		<endnode>true</endnode>
 	</node>
 
-	<node>
+	<node char_id = "4">
 		<text>Суи
 
 в отчаяние, в лице принятия этих потерь и одиночества.
@@ -185,22 +186,23 @@
 		<endnode>true</endnode>
 	</node>
 
-	<node>
+	<node char_id = "5">
 		<text>Суи
 
 Согласишься ли ты создать новые воспоминания?
 		</text>
 		<answers>
-			<answer tonode ="28">
+			<answer tonode ="0">
 				<ans_text>Да</ans_text>
+			<end>true</end><toending>Good_ending</toending>
 			</answer>
-			<answer tonode ="21">
+			<answer tonode ="20">
 				<ans_text>Нет</ans_text>
 			</answer>
 		</answers>
 	</node>
 
-	<node>
+	<node char_id = "2">
 		<text>Суи
 
 Даже после всего того, что я сказала?
@@ -208,30 +210,20 @@
 		<endnode>true</endnode>
 	</node>
 
-	<node>
-		<text>Суи
+	<node char_id = "3">
+			<text>Суи
 
 Хах... Ну, наверное, доверять демону и вправду звучит, как глупость. Не мне тебя судить, не мне тебя осуждать... Просто...
-		</text>
-		<endnode>true</endnode>
-	</node>
-
-	<node>
-			<text>		Вы прошли историю!
-
-
-
-		Перейти к концовке?
 			</text>
 		<answers>
 			<answer tonode ="0">
-				<ans_text>Да</ans_text>
+				<ans_text>Чт-</ans_text>
 				<end>true</end><toending>Sad_ending</toending>
 			</answer>
 		</answers>
 	</node>
 
-	<node>
+	<node char_id = "2">
 		<text>Суи
 
 П-погоди! Ты куда? Почему ты уходишь? Х-хей, вернись, пожалуйста.
@@ -239,22 +231,22 @@
 		<endnode>true</endnode>
 	</node>
 
-	<node>
+	<node char_id = "3">
 		<text>Суи
 
 Если я сказала что-то не так, то прости. Только вернись... Прошу...
 		</text>
 		<answers>
-			<answer tonode ="25">
+			<answer tonode ="24">
 				<ans_text>Вернуться</ans_text>
 			</answer>
-			<answer tonode ="26">
+			<answer tonode ="25">
 				<ans_text>Уйти</ans_text>
 			</answer>
 		</answers>
 	</node>
 
-	<node>
+	<node char_id = "5">
 		<text>Суи
 
 Не пугай меня так больше... Хорошо? Так на чём мы остановились? Да, точно. Примешь мой подарок?
@@ -263,48 +255,122 @@
 			<answer tonode ="1">
 				<ans_text>Взять</ans_text>
 			</answer>
-			<answer tonode ="6">
+			<answer tonode ="5">
 				<ans_text>Отказаться</ans_text>
+			</answer>
+			<answer tonode ="3">
+				<ans_text>Промолчать</ans_text>
+			</answer>
+			<answer tonode ="31">
+				<ans_text>Уйти </ans_text>
 			</answer>
 		</answers>
 	</node>
 
-	<node>
+	<node char_id = "3">
 		<text>Суи
 
-Пожалуйста... Не оставляй меня одну... Я не хочу... Почему ты уходишь?
+Пожалуйста... Не оставляй меня одну... 
 		</text>
 		<endnode>true</endnode>
 	</node>
+	
+	<node char_id = "3">
+		<text>Суи
 
-	<node>
-		<text>		Вы прошли историю...
-
-
-
-		Перейти к концовке?
+Я не хочу... Почему ты уходишь?
 		</text>
 		<answers>
 			<answer tonode ="0">
-				<ans_text>Да</ans_text>
+				<ans_text>Прощай</ans_text>
 				<end>true</end><toending>Leave_ending</toending>
 			</answer>
 		</answers>
 	</node>
 
-	<node>
-		<text>		Вы прошли историю!
+	<node char_id = "5">
+		<text>Суи
 
+Возможно между нами недопонимание. Если ты немой, то есть знаки жестов. Так что дай знак
+		</text>
+		<endnode>true</endnode>
+	</node>
+	
+	<node char_id = "5">
+		<text>Суи
 
-
-		Перейти к концовке?
+хочешь ли ты взять этот шоколад.
 		</text>
 		<answers>
-			<answer tonode ="0">
-				<ans_text>Да</ans_text>
-				<end>true</end><toending>Good_ending</toending>
+			<answer tonode ="1">
+				<ans_text>Взять</ans_text>
+			</answer>
+			<answer tonode ="5">
+				<ans_text>Отказаться</ans_text>
+			</answer>
+			<answer tonode ="29">
+				<ans_text>Промолчать</ans_text>
 			</answer>
 		</answers>
+	</node>
+
+	<node char_id = "2">
+		<text>Суи
+
+Окей...
+		</text>
+		<endnode>true</endnode>
+	</node>
+
+	<node char_id = "5">
+		<text>Суи
+
+Это становится неловким. Если ты не хочешь взять всю шоколадку, то может хотя бы часть?
+		</text>
+		<answers>
+			<answer tonode ="1">
+				<ans_text>Взять</ans_text>
+			</answer>
+			<answer tonode ="5">
+				<ans_text>Отказаться</ans_text>
+			</answer>
+			<answer tonode ="0">
+				<ans_text>Промолчать</ans_text>
+			<end>true</end><toending>Silence_ending</toending>
+			</answer>
+		</answers>
+	</node>
+
+	<node char_id = "7">
+		<text>Суи
+		
+Ты не можешь снова просто так уйти!
+		</text>
+		<endnode>true</endnode>
+	</node>
+
+	<node char_id = "0">
+		<text>Суи
+
+Только не снова! Бери шоколад.
+		</text>
+		<answers>
+			<answer tonode ="1">
+				<ans_text>Взять</ans_text>
+			</answer>
+			<answer tonode ="5">
+				<ans_text>Отказаться</ans_text>
+			</answer>
+			<answer tonode ="3">
+				<ans_text>Промолчать</ans_text>
+			</answer>
+		</answers>
+	</node>
+
+	<node char_id = "0">
+		<text>Костыль
+		</text>	
+		<endnode>true</endnode>
 	</node>
 
 </dialogue>

@@ -21,6 +21,9 @@ public class TakeTextFromFile
 [System.Serializable]
     public class Node 
 {
+    [XmlAttribute("char_id")]
+    public int id;
+
     [XmlElement("text")]
     public string text;
 

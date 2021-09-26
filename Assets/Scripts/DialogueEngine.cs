@@ -11,16 +11,18 @@ public class DialogueEngine : MonoBehaviour
 
     int i = 0;
 
-    public Text dialogueText;
-    public Image cyuImage;
+    [SerializeField] private Text dialogueText;
+    [SerializeField] private Image cyuImage;
 
-    public int[] spriteID;
-    public Sprite[] cyuSprites;
+    [SerializeField] private Sprite[] cyuSprites;
 
     TakeTextFromFile dialogue;
 
-    public GameObject[] buttons;
-    public GameObject NextButton;
+    [SerializeField] private GameObject[] buttons;
+    [SerializeField] private GameObject NextButton;
+
+    [SerializeField] private Graphic recolorObject;
+    private Color _color = Color.black;
 
     void Start()
     {
@@ -31,7 +33,7 @@ public class DialogueEngine : MonoBehaviour
     
     void Update()
     {
-        cyuImage.sprite = cyuSprites[spriteID[i]];
+        cyuImage.sprite = cyuSprites[dialogue.nodes[i].id];
         if(dialogue.nodes[i].endnode != "true")
         {
             NextButton.SetActive(false);
@@ -45,6 +47,10 @@ public class DialogueEngine : MonoBehaviour
                 {
                     buttons[j].GetComponent<ButtonOnClick>().end = dialogue.nodes[i].answers[j].end;
                     buttons[j].GetComponent<ButtonOnClick>().ending = dialogue.nodes[i].answers[j].ending;
+                }
+                if(dialogue.nodes[i].answers[j].anstext == "Уйти ")
+                {
+                    buttons[3].GetComponent<Image>().color = _color;
                 }
             }
         }
