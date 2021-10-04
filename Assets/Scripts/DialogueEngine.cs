@@ -21,8 +21,7 @@ public class DialogueEngine : MonoBehaviour
     [SerializeField] private GameObject[] buttons;
     [SerializeField] private GameObject NextButton;
 
-    [SerializeField] private Graphic recolorObject;
-    private Color _color = Color.black;
+    [SerializeField] private Sprite buttonRecolor;
 
     void Start()
     {
@@ -50,7 +49,7 @@ public class DialogueEngine : MonoBehaviour
                 }
                 if(dialogue.nodes[i].answers[j].anstext == "Уйти ")
                 {
-                    buttons[3].GetComponent<Image>().color = _color;
+                    buttons[3].GetComponent<Image>().sprite = buttonRecolor;
                 }
             }
         }

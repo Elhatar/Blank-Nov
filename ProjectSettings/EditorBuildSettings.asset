@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Silence_ending.unity
     guid: eea016c8d222f70488e70cdf17798405
+  - enabled: 1
+    path: Assets/Scenes/Dead_Scene.unity
+    guid: b9590d69d8204bd43891e6b4b3bbce90
   m_configObjects: {}

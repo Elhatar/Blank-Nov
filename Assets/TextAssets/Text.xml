@@ -343,33 +343,30 @@
 
 	<node char_id = "7">
 		<text>Суи
-		
-Ты не можешь снова просто так уйти!
+
+Ты не можешь это сделать!
 		</text>
 		<endnode>true</endnode>
 	</node>
-
-	<node char_id = "0">
+	
+		<node char_id = "1">
 		<text>Суи
 
-Только не снова! Бери шоколад.
+Бери шоколад.
 		</text>
 		<answers>
 			<answer tonode ="1">
-				<ans_text>Взять</ans_text>
+				<ans_text>Взять </ans_text>
 			</answer>
 			<answer tonode ="5">
 				<ans_text>Отказаться</ans_text>
-			</answer>
-			<answer tonode ="3">
-				<ans_text>Промолчать</ans_text>
 			</answer>
 		</answers>
 	</node>
 
 	<node char_id = "0">
 		<text>Костыль
-		</text>	
+		</text>
 		<endnode>true</endnode>
 	</node>
 
