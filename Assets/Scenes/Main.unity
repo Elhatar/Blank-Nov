@@ -211,6 +211,7 @@ GameObject:
   - component: {fileID: 272651546}
   - component: {fileID: 272651545}
   - component: {fileID: 272651544}
+  - component: {fileID: 272651547}
   m_Layer: 5
   m_Name: Next
   m_TagString: Untagged
@@ -291,6 +292,17 @@ MonoBehaviour:
           m_StringArgument: Next
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 272651547}
+        m_MethodName: Back
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &272651545
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -328,6 +340,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 272651542}
   m_CullTransparentMesh: 0
+--- !u!114 &272651547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 272651542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0db133fe9ccc224aa9a24af3a3426fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainText: {fileID: 0}
+  imagesToChange:
+  - {fileID: 2075800315}
+  - {fileID: 829098245}
+  - {fileID: 1895114189}
+  changedImages: []
+  startImages:
+  - {fileID: 21300000, guid: 3397fe3d165e05d449e9fdffb6b4f1d4, type: 3}
+  - {fileID: -740055566494215922, guid: f411d19ad47d42744b5fde6f32e0163f, type: 3}
+  - {fileID: 2133860580542188391, guid: f411d19ad47d42744b5fde6f32e0163f, type: 3}
 --- !u!1 &358829068
 GameObject:
   m_ObjectHideFlags: 0
@@ -1142,7 +1176,8 @@ MonoBehaviour:
   - {fileID: 1522644073}
   - {fileID: 1791693040}
   NextButton: {fileID: 272651542}
-  recolorObject: {fileID: 1791693043}
+  buttonRecolor: {fileID: 1633630269888726298, guid: 16bb7183b0f24f84188e87be8558fde9,
+    type: 3}
 --- !u!1 &1522644073
 GameObject:
   m_ObjectHideFlags: 0
@@ -1370,6 +1405,7 @@ GameObject:
   - component: {fileID: 1791693043}
   - component: {fileID: 1791693042}
   - component: {fileID: 1791693041}
+  - component: {fileID: 1791693046}
   m_Layer: 5
   m_Name: Answ4
   m_TagString: Untagged
@@ -1447,6 +1483,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1791693046}
+        m_MethodName: Change
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1791693043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1505,6 +1552,31 @@ RectTransform:
   m_AnchoredPosition: {x: -445, y: -30.199997}
   m_SizeDelta: {x: 380, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1791693046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791693040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0db133fe9ccc224aa9a24af3a3426fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainText: {fileID: 786111553}
+  imagesToChange:
+  - {fileID: 2075800315}
+  - {fileID: 829098245}
+  - {fileID: 1895114189}
+  changedImages:
+  - {fileID: 21300000, guid: 1fffa7081dd6776478ae7c1429648b3d, type: 3}
+  - {fileID: 2546892654640618438, guid: 8a1bca79f50b2a14484de58447c3bd30, type: 3}
+  - {fileID: 5377255458205588132, guid: 8a1bca79f50b2a14484de58447c3bd30, type: 3}
+  startImages:
+  - {fileID: 21300000, guid: 3397fe3d165e05d449e9fdffb6b4f1d4, type: 3}
+  - {fileID: -740055566494215922, guid: f411d19ad47d42744b5fde6f32e0163f, type: 3}
+  - {fileID: 2133860580542188391, guid: f411d19ad47d42744b5fde6f32e0163f, type: 3}
 --- !u!1 &1895114187
 GameObject:
   m_ObjectHideFlags: 0
